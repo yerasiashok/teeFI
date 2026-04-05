@@ -1,0 +1,5 @@
+package com.teefi.enums;
+
+public enum OrderStatus {
+    PENDING, PAYMENT_INITIATED, PAID, SENT_TO_POD, FULFILLING, SHIPPED, DELIVERED, CANCELLED, REFUNDED
+}
